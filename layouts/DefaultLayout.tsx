@@ -1,4 +1,4 @@
-import { Box } from '../components/Box';
+import { Box } from "@mantine/core";
 
 interface Props {
   children: any;
@@ -6,8 +6,8 @@ interface Props {
 
 const DefaultLayout: any = ({ children }: Props) => (
   <Box
-    css={{
-      maxW: '100%',
+    style={{
+      maxWidth: '100%'
     }}
   >
     {children}
